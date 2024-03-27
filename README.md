@@ -26,4 +26,28 @@ Exceptions can be seen/determined during runtime and can be retried unlike error
 Finally will always execute irregardless of an exception 
 rising error 
 Customs Exceptions:
+Threading:
+The operating system is responsible for allocating memory to each process running on the computer.it put walls between the processes so they cannot access each others memeory.
+We can move two pieces of code into the same process , this way they get to share memory, we can run them in parallel at the same time they run in separate threads (import threads)
+Multiprocessig
+proess does not share memory (import multiprocesses)
+good way to collect output from multiple processes is writing results to file
+processes can have multiple threads
+Working with files:
+python cannot read or edit a file if it is being used in
+Write files :
+f.realine('line1/n') when you run the code you get a different line so this object contains some sort of bookmark of whivh lines of the file are already read.
+f.readlines() is used to read all the lines of the file
+Appending files 
+close file by f.close(), then reopem to to see all written lines
+CSV 
+import csv
+to write row in csv, writer.writerow
+change commas to spaces by using delimiter'\t'
+next() used to skip 
+Filtering Data:
+JSON , a Json string is a string . in order to change the string to a dictionary we need input import json 
+passing a json string into a python object involves json.loads
+Dumping Json :
+
 
